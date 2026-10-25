@@ -11,7 +11,7 @@ phoneinfoga scan -n "33679368229"
 Special chars such as `( ) - +` will be escaped so typing US-based numbers stay easy : 
 
 ```
-phoneinfoga scan -n "+61401038434"
+phoneinfoga scan -n "+"
 ```
 
 !!! note "Note that the country code is essential. You don't know which country code to use ? [Find it here](https://www.countrycode.org/)"
@@ -30,7 +30,7 @@ Input file must contain one phone number per line. Invalid numbers will be skipp
 #### Footprinting
 
 ```
-phoneinfoga scan -n +42837544833 -s footprints
+phoneinfoga scan -n +scan -n "+61401038434" -s footprints
 ```
 
 #### Custom format reconnaissance
